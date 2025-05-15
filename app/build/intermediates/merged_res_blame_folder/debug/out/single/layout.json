@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Downloads\\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Downloads\\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Downloads\\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_camera.xml",
+        "source": "C:\\Downloads\\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\\app\\src\\main\\res\\layout\\fragment_camera.xml"
+    },
+    {
+        "merged": "C:\\Downloads\\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\info_bottom_sheet.xml",
+        "source": "C:\\Downloads\\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\\app\\src\\main\\res\\layout\\info_bottom_sheet.xml"
+    },
+    {
+        "merged": "C:\\Downloads\\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_gallery.xml",
+        "source": "C:\\Downloads\\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\\app\\src\\main\\res\\layout\\fragment_gallery.xml"
+    }
+]

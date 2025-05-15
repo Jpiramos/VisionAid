@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">VisionAid</string>
+
+    <string name="alt_bottom_sheet_chevron">Indicador expansível da barra inferior</string>
+
+    <string name="alt_bottom_sheet_max_results_button_minus">Botão para reduzir o número máximo de resultados detectados</string>
+    <string name="alt_bottom_sheet_max_results_button_plus">Botão para aumentar o número máximo de resultados detectados</string>
+    <string name="alt_bottom_sheet_threshold_button_minus">Botão para reduzir o limite de confiança dos objetos detectados</string>
+    <string name="alt_bottom_sheet_threshold_button_plus">Botão para aumentar o limite de confiança dos objetos detectados</string>
+
+    <string name="label_inference_time">Tempo de Inferência</string>
+    <string name="label_fps">Quadros por Segundo (FPS)</string>
+    <string name="label_confidence_threshold">Confiança</string>
+    <string name="label_max_results">Resultados</string>
+    <string name="label_delegate">Hardware</string>
+    <string name="label_models">Modelo</string>
+    <string name="menu_camera">Câmera</string>
+    <string name="menu_gallery">Galeria</string>
+    <string name="tv_gallery_placeholder">Clique em + no canto inferior direito da tela para adicionar uma imagem ou vídeo e iniciar a detecção de objetos.</string>
+
+    <string-array name="delegate_spinner_titles">
+        <item>CPU</item>
+        <item>GPU</item>
+    </string-array>
+
+    <string-array name="models_spinner_titles">
+        <item>EfficientDet Lite0</item>
+        <item>EfficientDet Lite2</item>
+    </string-array>
+</resources>
+

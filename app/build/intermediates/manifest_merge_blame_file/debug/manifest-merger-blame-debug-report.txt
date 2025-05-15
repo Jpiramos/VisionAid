@@ -1,0 +1,162 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.google.mediapipe.examples.objectdetection"
+5    android:versionCode="1"
+6    android:versionName="1.0.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml
+11
+12    <!-- Enable instant app support -->
+13    <dist:module dist:instant="true" />
+13-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:9:5-40
+13-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:9:18-37
+14
+15    <!-- Declare features -->
+16    <uses-feature android:name="android.hardware.camera" />
+16-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:12:5-60
+16-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:12:19-57
+17
+18    <!-- Declare permissions -->
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:15:5-65
+19-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:15:22-62
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:16:5-66
+20-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:16:22-64
+21
+22    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+23    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Jpira\.gradle\caches\transforms-3\12a51b443744b94f0ae14818ee5e132a\transformed\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:25:5-79
+24-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Jpira\.gradle\caches\transforms-3\12a51b443744b94f0ae14818ee5e132a\transformed\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:25:22-76
+25
+26    <application
+26-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:19:5-49:19
+27        android:allowBackup="true"
+27-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:20:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.8.0] C:\Users\Jpira\.gradle\caches\transforms-3\c23a032be893b88378a89fd52f55942c\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:21:9-43
+32        android:label="@string/app_name"
+32-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:22:9-41
+33        android:taskAffinity=""
+33-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:23:9-32
+34        android:testOnly="true" >
+35        <activity
+35-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:26:9-47:20
+36            android:name="com.google.mediapipe.examples.objectdetection.MainActivity"
+36-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:27:13-41
+37            android:clearTaskOnLaunch="true"
+37-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:28:13-45
+38            android:exported="true"
+38-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:29:13-36
+39            android:icon="@mipmap/ic_launcher"
+39-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:30:13-47
+40            android:resizeableActivity="true"
+40-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:31:13-46
+41            android:rotationAnimation="seamless"
+41-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:32:13-49
+42            android:theme="@style/AppTheme" >
+42-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:33:13-44
+43
+44            <!-- Main app intent filter -->
+45            <intent-filter>
+45-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:37:13-40:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:38:17-69
+46-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:38:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:39:17-77
+48-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:39:27-74
+49            </intent-filter>
+50
+51            <!-- Declare notch support -->
+52            <meta-data
+52-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:43:13-45:40
+53                android:name="android.notch_support"
+53-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:44:17-53
+54                android:value="true" />
+54-->C:\Downloads\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\VisionAid-f7161156df94369869c6f5971d2544e491bc7ad8\app\src\main\AndroidManifest.xml:45:17-37
+55        </activity>
+56
+57        <uses-library
+57-->[androidx.window:window:1.0.0-alpha09] C:\Users\Jpira\.gradle\caches\transforms-3\fd89891908524ffdf904b2e997e8aae1\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:25:9-27:40
+58            android:name="androidx.window.extensions"
+58-->[androidx.window:window:1.0.0-alpha09] C:\Users\Jpira\.gradle\caches\transforms-3\fd89891908524ffdf904b2e997e8aae1\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:26:13-54
+59            android:required="false" />
+59-->[androidx.window:window:1.0.0-alpha09] C:\Users\Jpira\.gradle\caches\transforms-3\fd89891908524ffdf904b2e997e8aae1\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:27:13-37
+60        <uses-library
+60-->[androidx.window:window:1.0.0-alpha09] C:\Users\Jpira\.gradle\caches\transforms-3\fd89891908524ffdf904b2e997e8aae1\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:28:9-30:40
+61            android:name="androidx.window.sidecar"
+61-->[androidx.window:window:1.0.0-alpha09] C:\Users\Jpira\.gradle\caches\transforms-3\fd89891908524ffdf904b2e997e8aae1\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:29:13-51
+62            android:required="false" />
+62-->[androidx.window:window:1.0.0-alpha09] C:\Users\Jpira\.gradle\caches\transforms-3\fd89891908524ffdf904b2e997e8aae1\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:30:13-37
+63
+64        <service
+64-->[androidx.camera:camera-camera2:1.1.0] C:\Users\Jpira\.gradle\caches\transforms-3\0ca9b03ee2c905cb7879ad18f154f8b8\transformed\jetified-camera-camera2-1.1.0\AndroidManifest.xml:26:9-35:19
+65            android:name="androidx.camera.core.impl.MetadataHolderService"
+65-->[androidx.camera:camera-camera2:1.1.0] C:\Users\Jpira\.gradle\caches\transforms-3\0ca9b03ee2c905cb7879ad18f154f8b8\transformed\jetified-camera-camera2-1.1.0\AndroidManifest.xml:27:13-75
+66            android:enabled="false"
+66-->[androidx.camera:camera-camera2:1.1.0] C:\Users\Jpira\.gradle\caches\transforms-3\0ca9b03ee2c905cb7879ad18f154f8b8\transformed\jetified-camera-camera2-1.1.0\AndroidManifest.xml:28:13-36
+67            android:exported="false" >
+67-->[androidx.camera:camera-camera2:1.1.0] C:\Users\Jpira\.gradle\caches\transforms-3\0ca9b03ee2c905cb7879ad18f154f8b8\transformed\jetified-camera-camera2-1.1.0\AndroidManifest.xml:29:13-37
+68            <meta-data
+68-->[androidx.camera:camera-camera2:1.1.0] C:\Users\Jpira\.gradle\caches\transforms-3\0ca9b03ee2c905cb7879ad18f154f8b8\transformed\jetified-camera-camera2-1.1.0\AndroidManifest.xml:32:13-34:89
+69                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+69-->[androidx.camera:camera-camera2:1.1.0] C:\Users\Jpira\.gradle\caches\transforms-3\0ca9b03ee2c905cb7879ad18f154f8b8\transformed\jetified-camera-camera2-1.1.0\AndroidManifest.xml:33:17-103
+70                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+70-->[androidx.camera:camera-camera2:1.1.0] C:\Users\Jpira\.gradle\caches\transforms-3\0ca9b03ee2c905cb7879ad18f154f8b8\transformed\jetified-camera-camera2-1.1.0\AndroidManifest.xml:34:17-86
+71        </service>
+72
+73        <provider
+73-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Jpira\.gradle\caches\transforms-3\d3b9f0ec91abda46eb69824da218d191\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+74            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+74-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Jpira\.gradle\caches\transforms-3\d3b9f0ec91abda46eb69824da218d191\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+75            android:authorities="com.google.mediapipe.examples.objectdetection.lifecycle-process"
+75-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Jpira\.gradle\caches\transforms-3\d3b9f0ec91abda46eb69824da218d191\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+76            android:exported="false"
+76-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Jpira\.gradle\caches\transforms-3\d3b9f0ec91abda46eb69824da218d191\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+77            android:multiprocess="true" />
+77-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Jpira\.gradle\caches\transforms-3\d3b9f0ec91abda46eb69824da218d191\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+78
+79        <service
+79-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Jpira\.gradle\caches\transforms-3\12a51b443744b94f0ae14818ee5e132a\transformed\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:29:9-35:19
+80            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+80-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Jpira\.gradle\caches\transforms-3\12a51b443744b94f0ae14818ee5e132a\transformed\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:30:13-103
+81            android:exported="false" >
+81-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Jpira\.gradle\caches\transforms-3\12a51b443744b94f0ae14818ee5e132a\transformed\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:31:13-37
+82            <meta-data
+82-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Jpira\.gradle\caches\transforms-3\12a51b443744b94f0ae14818ee5e132a\transformed\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:32:13-34:39
+83                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+83-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Jpira\.gradle\caches\transforms-3\12a51b443744b94f0ae14818ee5e132a\transformed\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:33:17-94
+84                android:value="cct" />
+84-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Jpira\.gradle\caches\transforms-3\12a51b443744b94f0ae14818ee5e132a\transformed\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:34:17-36
+85        </service>
+86        <service
+86-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Jpira\.gradle\caches\transforms-3\d7bbbc50cc94597da4224ed67d471760\transformed\jetified-transport-runtime-3.1.0\AndroidManifest.xml:26:9-30:19
+87            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+87-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Jpira\.gradle\caches\transforms-3\d7bbbc50cc94597da4224ed67d471760\transformed\jetified-transport-runtime-3.1.0\AndroidManifest.xml:27:13-117
+88            android:exported="false"
+88-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Jpira\.gradle\caches\transforms-3\d7bbbc50cc94597da4224ed67d471760\transformed\jetified-transport-runtime-3.1.0\AndroidManifest.xml:28:13-37
+89            android:permission="android.permission.BIND_JOB_SERVICE" >
+89-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Jpira\.gradle\caches\transforms-3\d7bbbc50cc94597da4224ed67d471760\transformed\jetified-transport-runtime-3.1.0\AndroidManifest.xml:29:13-69
+90        </service>
+91
+92        <receiver
+92-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Jpira\.gradle\caches\transforms-3\d7bbbc50cc94597da4224ed67d471760\transformed\jetified-transport-runtime-3.1.0\AndroidManifest.xml:32:9-34:40
+93            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+93-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Jpira\.gradle\caches\transforms-3\d7bbbc50cc94597da4224ed67d471760\transformed\jetified-transport-runtime-3.1.0\AndroidManifest.xml:33:13-132
+94            android:exported="false" />
+94-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Jpira\.gradle\caches\transforms-3\d7bbbc50cc94597da4224ed67d471760\transformed\jetified-transport-runtime-3.1.0\AndroidManifest.xml:34:13-37
+95    </application>
+96
+97</manifest>
